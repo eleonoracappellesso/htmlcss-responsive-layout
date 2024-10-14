@@ -39,6 +39,10 @@ h1 {
     font-size: 3em;
 }
 
+ul {
+    list-style: none;
+}
+
 /*  backgrounds  */
 
 .bg-white {
@@ -57,6 +61,10 @@ h1 {
 
 .text-dark {
     color: var(--color-dark-text);
+}
+
+.text-bold {
+    font-weight: bold;
 }
 
 /*   flex utilities   */
@@ -127,13 +135,34 @@ h3 {
     .d-block {
         display: block;
     }
+
+    #first-section ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
     
 }
 
 
-@media screen and (min-width:992px) {
+@media screen and (min-width: 1024px) {
     .j-space-between {
         justify-content: space-between;
     }
+
+    .w-70 {
+        width: 70%;
+    }
    
+    .w-30 {
+        width: 30%;
+    }
+
+    #first-section {
+        display: flex;
+    }
+
+    #first-section ul {
+        display: block;
+    }
 }
