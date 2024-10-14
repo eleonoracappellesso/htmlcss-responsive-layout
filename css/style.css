@@ -89,6 +89,10 @@ ul {
     align-items: center;
 }
 
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
 .d-none {
     display: none;
 }
@@ -100,6 +104,10 @@ ul {
 }
 
 /*    page    */
+
+section {
+    margin-bottom: 30px;
+}
 
 .container {
     max-width: 1080px;
@@ -121,10 +129,6 @@ main {
     padding: 20px;
 }
 
-h2 {
-    font-size: 2em;
-}
-
 h3 {
     text-transform: uppercase;
     color: var(--color-black);
@@ -143,7 +147,20 @@ h3 {
     width: 200px;
 }
 
+#second-section h2 {
+    font-weight: 400;
+    text-transform: uppercase;
+}
 
+hr {
+    color: var(--color-contrast);
+    width: 10%;
+    margin: 20px 0;
+}
+
+footer ul {
+    gap: 15px;
+}
 
 /*  media query  */
 
@@ -214,4 +231,14 @@ h3 {
         text-transform: uppercase;
         color: black;
     }
+
+.only-desktop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h4 {
+    text-align: left;
+}
 }
