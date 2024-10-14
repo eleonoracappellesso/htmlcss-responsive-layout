@@ -1,0 +1,72 @@
+:root {
+    --color-white: #ffffff;
+    --color-bg-color: #d9d9d9;
+    --color-primary: #7c69a4;
+    --color-dark-text: #4e3969;
+    --color-black: #282529;
+    --color-contrast: #fa961a;
+    --color-icon-red: #ea5556;
+    --color-icon-blue: #2871f0;
+}
+
+/*   reset    */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*   generals   */
+
+.debug {
+    border: 1px solid red;
+}
+
+body {
+    font-family: Montserrat, 'Helvetica Neue', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    color: var(--color-contrast);
+    font-family: "Nerko One", cursive;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    text-transform: uppercase;
+    font-size: 3em;
+}
+
+/*  backgrounds  */
+
+.bg-white {
+    background-color: var(--color-white);
+}
+
+.bg-primary {
+    background-color: var(--color-primary);
+}
+
+/*    page    */
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+header,
+footer {
+    min-height: 70px;
+    padding: 20px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+main {
+    background-color: grey;
+    padding: 20px;
+}
