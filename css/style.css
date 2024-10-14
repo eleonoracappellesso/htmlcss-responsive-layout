@@ -43,6 +43,10 @@ ul {
     list-style: none;
 }
 
+.p-15 {
+    padding: 15px;
+}
+
 /*  backgrounds  */
 
 .bg-white {
@@ -65,6 +69,10 @@ ul {
 
 .text-bold {
     font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
 }
 
 /*   flex utilities   */
@@ -124,6 +132,12 @@ h3 {
     padding: 15px;
 }
 
+#second-section img {
+    width: 200px;
+}
+
+
+
 /*  media query  */
 
 @media screen and (min-width:576px) {
@@ -148,7 +162,9 @@ h3 {
         justify-content: space-between;
     }
 
-    
+    #second-section img {
+        float: left;
+    }
 }
 
 
