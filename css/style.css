@@ -36,7 +36,7 @@ img {
 h1 {
     color: var(--color-contrast);
     font-family: "Nerko One", cursive;
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
     text-transform: uppercase;
     font-size: 3em;
 }
@@ -156,7 +156,7 @@ h3 {
 
 #second-section img {
     width: 200px;
-    
+
 }
 
 .only-mobile {
@@ -179,7 +179,7 @@ footer ul {
 /*  media query  */
 
 @media screen and (min-width:576px) {
-    
+
     #first-section h4 {
         margin-left: 20px;
     }
@@ -191,7 +191,7 @@ footer ul {
     main {
         padding: 40px;
     }
-    
+
     header .j-space-between {
         justify-content: space-between;
     }
@@ -231,7 +231,7 @@ footer ul {
     .w-70 {
         width: 70%;
     }
-   
+
     .w-30 {
         width: 30%;
     }
@@ -257,13 +257,13 @@ footer ul {
         color: black;
     }
 
-.only-desktop {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+    .only-desktop {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
-h4 {
-    text-align: left;
-}
+    h4 {
+        text-align: left;
+    }
 }
